@@ -1,0 +1,31 @@
+       body{
+        text-align: center;
+       }
+       
+       p
+        {
+            background-color: burlywood;
+            color: rgb(13, 10, 10);
+            font-size: 24px;
+            border: 4px dotted rgb(23, 13, 23);
+        }
+   
+        img {
+           width: 600px;
+            position: relative;
+            margin-bottom: 20px;        
+
+        }
+     
+#test2{
+    font-size: 50px;
+}
+
+.text{
+    background-color:rgb(116, 165, 42);
+}
+
+
+p {
+    background-color: red;
+}

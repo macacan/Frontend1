@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-hej allihopa!
+<h1 style="background-color: rgb(167, 142, 53)">Besök oss på HAPPYHEM</h1>
+
+<style>
+    .scroll-left {
+     height: 50px;	
+     overflow: hidden;
+     position: relative;
+     background: yellow;
+     color: orange;
+     border: 1px solid orange;
+    }
+    .scroll-left p {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     transform:translateX(100%);
+     animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+     0%   {
+     transform: translateX(100%); 		
+     }
+     100% {
+     transform: translateX(-100%); 
+     }
+    }
+    </style>
+    
+    <div class="scroll-left">
+         <p>REA ! REA! REA! REA ! REA! REA! REA ! REA! REA! REA ! REA! REA! REA ! REA! REA! REA ! REA! REA!</p>
+    </div>
+    
+<img src="241695373_4496377810400843_7661848557857332155_n.jpg" alt="test">
+
+<br>
+
+<h1 id ="test"> Klicka här nedan</h1>
+<a id="test2" href="http://happyhem.se">happyhem</a>
+
+
+<h1 class="text"> testar färg</h1>
+<h1 class="text"> testar färg</h1>
+
+
 </body>
 </html>
